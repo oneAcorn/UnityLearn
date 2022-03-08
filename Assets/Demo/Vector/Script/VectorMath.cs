@@ -13,7 +13,7 @@ public class VectorMath : MonoBehaviour
     }
 
     /// <summary>
-    /// ÏòÁ¿Ïà¼õ
+    /// å‘é‡ç›¸å‡
     /// </summary>
     private void VectorSubtract()
     {

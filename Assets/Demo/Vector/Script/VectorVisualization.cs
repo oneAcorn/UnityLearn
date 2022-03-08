@@ -14,15 +14,15 @@ public class VectorVisualization : MonoBehaviour
     private void DrawLine()
     {
         Vector3 pos = transform.position;
-        //´ÓÊÀ½ç×ø±êÆğµã,µ½´ËÎïÌåµÄÎ»ÖÃ
+        //ä»ä¸–ç•Œåæ ‡èµ·ç‚¹,åˆ°æ­¤ç‰©ä½“çš„ä½ç½®
         Debug.DrawLine(Vector3.zero, pos);
-        //Ä£
+        //æ¨¡
         float magnitude1 = transform.position.magnitude;
-        float magnitude2 = Vector3.Distance(Vector3.zero, pos); //ºÍmagnitude1Ò»Ñù.
-        //·½Ïò
+        float magnitude2 = Vector3.Distance(Vector3.zero, pos); //å’Œmagnitude1ä¸€æ ·.
+        //æ–¹å‘
         Vector3 normalizeVec1 = pos / pos.magnitude;
-        Vector3 normalizeVec2 = pos.normalized; //ºÍnormalizeVec1Ò»Ñù.
-        //»æÖÆÏòÁ¿µÄ·½Ïò
+        Vector3 normalizeVec2 = pos.normalized; //å’ŒnormalizeVec1ä¸€æ ·.
+        //ç»˜åˆ¶å‘é‡çš„æ–¹å‘
         Debug.DrawLine(Vector3.zero, normalizeVec1, Color.red);
     }
 }
