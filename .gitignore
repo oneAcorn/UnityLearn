@@ -10,4 +10,5 @@
 
 /*/
 !Assets/
-!UserSettings/
+!ProjectSettings/
+!Packages/
